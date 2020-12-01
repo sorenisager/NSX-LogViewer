@@ -1,9 +1,9 @@
-﻿CREATE TABLE `nsxlogger_token` (
+CREATE TABLE `nsxlogger_token` (
   `id` int NOT NULL,
   `token` varchar(300) NOT NULL,
   `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `expire` timestamp NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
 ALTER TABLE `nsxlogger_token`
